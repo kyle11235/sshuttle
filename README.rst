@@ -79,3 +79,16 @@ https://sshuttle.readthedocs.org/
 
 The documentation for the latest development version is available at:
 https://sshuttle.readthedocs.org/en/latest/
+
+my
+------------------
+
+      git clone https://github.com/kyle11235/sshuttle.git
+      cd sshuttle
+      sudo ./setup.py install
+
+      update start.sh
+      cp id_rsa to where start.sh is
+      ./start.sh
+
+      
