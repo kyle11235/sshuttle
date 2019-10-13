@@ -84,11 +84,14 @@ my
 ------------------
 
       git clone https://github.com/kyle11235/sshuttle.git
+      
       cd sshuttle
-      sudo ./setup.py install
+      
+      sudo apt-get install -y python3-setuptools (if python3)
+      
+      sudo python3 ./setup.py install
 
       update start.sh
-      cp id_rsa to where start.sh is
-      ./start.sh
+
 
       
