@@ -83,11 +83,13 @@ https://sshuttle.readthedocs.org/en/latest/
 my
 ------------------
 
-- install
+- install::
 
+      - mac
       git clone https://github.com/kyle11235/sshuttle.git
       cd sshuttle
       sudo ./setup.py install
+      
       chmod +x start.sh
       update start.sh
 
